@@ -1,0 +1,25 @@
+title: 当代思旧穴
+description: 记录技术、生活与个人思考
+author: 2084memoryhole
+lang: zh-CN
+timezone: Asia/Shanghai
+
+theme: minima
+markdown: kramdown
+
+url: "https://2084memoryhole.github.io"
+baseurl: ""
+
+permalink: /posts/:year/:month/:day/:title/
+
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  date_format: "%Y-%m-%d"
